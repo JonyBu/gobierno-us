@@ -1,0 +1,47 @@
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+header{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 116, 170);
+    background-image: url(img/headerLargo.png);
+    background-repeat: no-repeat;
+    height: 120px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+}
+
+#mail {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+}
+
+#mail img{
+    height: 40px;
+}
+#mail a{
+    color: white;
+}
+
+#asideLogo img{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
